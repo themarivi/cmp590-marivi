@@ -1,0 +1,224 @@
+/*! Building Interfaces HTML5 template */
+
+
+
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+header {
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E6DFD5;
+}
+
+body {
+    background-color: #E6DFD5;
+}
+
+div {
+    float: left;
+    width: 300px;
+    height: 300px;
+    background: white;
+}
+
+h1 {
+    font-size: 1.8em;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 1.em;
+    letter-spacing: 5px;
+}
+
+p {
+    font-size: 1em;
+}
+
+section {
+    float: left;
+    background: white;
+    width: 905px;
+    padding-top: px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin: 10px;
+    box-shadow: 0px 5px 20px #888888;
+}
+
+/*Classes for section*/
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.description {
+    float: left;
+    width: 400px;
+    height: 300px;
+    background: white;
+    font-size: 1.2em;
+    line-height: 150% 
+}
+.figure-1 {
+    float: right;
+    width 430px;
+    height: 290px;
+    background-color: #F6F3EC;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px dotted #B2B2B2;
+    text-align: center;
+    font-size: .8em;   
+}
+.figure-2 {
+    float: left;
+    margin: 10px;
+    height: 30px;
+}
+
+article {
+}
+/*Classes for articles*/
+.ingredients {
+    float: left; 
+    width: 300px;
+    padding: 5px;
+    line-height: 170%;
+}
+.instructions {
+    float: right;
+    width: 550px;
+    padding: 5px;
+    line-height: 140%;
+}
+aside {
+    float: right;
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #F6F3EC;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px dotted #B2B2B2;
+    font-size: .9em;
+    line-height: 160%;
+}
+footer {
+    clear: both;
+    background-color: #E6DFD5;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 320px;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+/* Mobile */
+@media only screen and (min-width: 480px) {}
+/* Intermediate */
+@media only screen and (min-width: 768px) {}
+/* Wide */
+@media only screen and (min-width: 1140px) {}
+
+
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
