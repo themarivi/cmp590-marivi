@@ -15,6 +15,7 @@ header {
 
 body {
     background-color: #E6DFD5;
+    font-family: 'Open Sans', sans-serif;
 }
 
 div {
@@ -27,11 +28,13 @@ div {
 h1 {
     font-size: 1.8em;
     letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
 }
 
 h2 {
     font-size: 1.em;
     letter-spacing: 5px;
+    font-family: 'Oswald', sans-serif;
 }
 
 p {
@@ -114,9 +117,9 @@ footer {
     clear: both;
     background-color: #E6DFD5;
     height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+    width:auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
